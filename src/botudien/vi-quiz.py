@@ -1,6 +1,6 @@
 """Vietnamese vocabulary quiz.
 
-Usage: fi-quiz.py [--help|-h] [--local|-l] [-n N] [-m M] [--pause|-p PAUSE]
+Usage: vi-quiz.py [--help|-h] [--local|-l] [-n N] [-m M] [--pause|-p PAUSE]
 
 Options:
     -h, --help  show this help message and exit

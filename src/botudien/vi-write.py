@@ -1,6 +1,6 @@
 """Vietnamese vocabulary quiz (type in the word).
 
-Usage: fi-write.py [--help|-h] [--local|-l] [-n N] [-m M] [--pause|-p PAUSE]
+Usage: vi-write.py [--help|-h] [--local|-l] [-n N] [-m M] [--pause|-p PAUSE]
 
 Options:
     -h, --help  show this help message and exit

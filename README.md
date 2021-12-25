@@ -27,9 +27,9 @@ Options:
     -f, --fi    the word is Vietnamese
 </pre>
 
-fi-flash.py -- Vietnamese flash cards
+vi-flash.py -- Vietnamese flash cards
 <pre>
-Usage: fi-flash.py [--help|-h] [--local|-l] [-n N]
+Usage: vi-flash.py [--help|-h] [--local|-l] [-n N]
 
 Options:
     -h, --help  show this help message and exit
@@ -37,9 +37,9 @@ Options:
     -n N    number of tests (default: 10)
 </pre>
 
-fi-quiz.py -- Vietnamese vocabulary quiz.
+vi-quiz.py -- Vietnamese vocabulary quiz.
 <pre>
-Usage: fi-quiz.py [--help|-h] [--local|-l] [-n N] [-m M]
+Usage: vi-quiz.py [--help|-h] [--local|-l] [-n N] [-m M]
 
 Options:
     -h, --help  show this help message and exit
@@ -49,18 +49,19 @@ Options:
 </pre>
 A sample session would look as follows:
 <pre>
-1: bread
-2: banana
-3: stone, rock
-4: wolf
-5: pulla (traditional, Vietnamese sweet bread)
-Which best describes the word [kivi]? 3
-Correct. [kivi] means [stone, rock]
+1: draw
+2: a sheet of paper
+3: one
+4: he
+5: apple
+Which best describes the word [vẽ]? 1
+Correct.
+[vẽ] means [draw]
 </pre>
 
-fi-write.py -- Vietnamese vocabulary quiz (type in the word).
+vi-write.py -- Vietnamese vocabulary quiz (type in the word).
 <pre>
-Usage: fi-write.py [--help|-h] [--local|-l] [-n N] [-m M] [--pause|-p PAUSE]
+Usage: vi-write.py [--help|-h] [--local|-l] [-n N] [-m M] [--pause|-p PAUSE]
 
 Options:
     -h, --help  show this help message and exit
@@ -71,16 +72,13 @@ Options:
 </pre>
 A sample session would look as follows:
 <pre>
-Which of the following best describes [no (auxiliary verb)]?
-sotkuinen
-ei
-parsakaali
-aika
-Japani
-Enter the word: Japani
-Incorrect.
-[ei] means [no (auxiliary verb)].
-
-Review the following word(s):
-[ei] means [no (auxiliary verb)].
+Which of the following words best describes [mug]?
+tò giấy
+găng tay
+thư
+ca
+ngã
+Enter the word: ca
+Correct.
+[ca] means [mug]
 </pre>
