@@ -23,7 +23,7 @@ def vi(word, lang=None, is_local=False):
         if type(res) is list:
             for item in res:
                 sana = Sana(item)
-                sana.dump()
+                print(sana)
         else:
             print('That is not in my dictionary (sorry!).')
     except Exception as e:

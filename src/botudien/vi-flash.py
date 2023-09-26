@@ -20,6 +20,8 @@ def vi(n=10, is_local=False):
             sana = Sana(index[i])
             input(f"{sana.exp}?")
             print(f"{sana.exp}: {sana.desc}")
+    except KeyboardInterrupt:
+        exit(0)
     except Exception as e:
         print(str(e))
 

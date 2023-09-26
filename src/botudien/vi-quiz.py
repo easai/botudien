@@ -43,10 +43,12 @@ def quiz(n=10, n_choices=5, is_local=False):
                     print(f"{choice=}")
                     print(sel)
                     wrong.append(sel)
-                    sel.dump()
+                    print(sel)
+            except KeyboardInterrupt:
+                exit(0)
             except Exception as e:
                 wrong.append(ans)
-            ans.dump()
+            print(ans)
             time.sleep(3)
             print()
         if wrong:

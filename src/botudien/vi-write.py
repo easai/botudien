@@ -39,9 +39,11 @@ def quiz(n=10, n_choices=5, is_local=False):
                 else:
                     wrong.append(ans)
                     print(f"Incorrect.")
+            except KeyboardInterrupt:
+                exit(0)
             except Exception as e:
                 wrong.append(ans)
-            ans.dump()
+            print(ans)
             time.sleep(pause)
             print()
         if wrong:

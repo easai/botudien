@@ -28,13 +28,8 @@ class Sana():
         self.exp = rec['vi']
         self.desc = rec['en']
 
-    def dump(self):
-        """Print formatted record.
-        """
-        print(f"[{self.exp}] means [{self.desc}]")
-
-    def test():
-        print("test")
+    def __str__(self):
+        return f"[{self.exp}] means [{self.desc}]"
 
 
 class Botudien():
@@ -82,4 +77,4 @@ class Botudien():
             lst(list): list of Sana objects
         """
         for item in lst:
-            item.dump()
+            print(item)
